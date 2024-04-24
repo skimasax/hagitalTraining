@@ -1,0 +1,50 @@
+ul{
+    text-decoration: none;
+}
+ul li{
+    display: inline-block;
+    float:right;
+}
+
+ul li a{
+    text-decoration: none;
+    text-align: right;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    color: #074d80;
+    cursor: pointer;
+}
+
+ul li a:hover{
+    text-decoration: none;
+    text-align: right;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: #074d80;
+    cursor: pointer;
+}
+
+a.active{
+    background-color:#E68729;
+    color:white;
+}
+
+#nav{
+    height: 80px;
+    width:100%;
+ 
+}
+
+#nav #boy{
+    height: 50px;
+    width: 50%;
+    float: left;
+}
+#nav #girl{
+    height: 50px;
+    width: 50%;
+    float: right;
+}
